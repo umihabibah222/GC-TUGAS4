@@ -1,0 +1,98 @@
+object Form1: TForm1
+  Left = 257
+  Height = 317
+  Top = 145
+  Width = 522
+  Caption = 'Form Koordinat'
+  ClientHeight = 317
+  ClientWidth = 522
+  OnCreate = FormCreate
+  OnMouseMove = FormMouseMove
+  LCLVersion = '3.4.0.0'
+  object Label1: TLabel
+    Left = 192
+    Height = 15
+    Top = 24
+    Width = 80
+    Caption = 'LabelKoordinat'
+    OnClick = Label1Click
+    OnMouseMove = Label1MouseMove
+  end
+  object ButtonTitik: TButton
+    Left = 17
+    Height = 25
+    Top = 174
+    Width = 75
+    Caption = 'Titik'
+    TabOrder = 0
+    OnClick = ButtonTitikClick
+  end
+  object ButtonGaris: TButton
+    Left = 120
+    Height = 25
+    Top = 176
+    Width = 75
+    Caption = 'Garis'
+    TabOrder = 1
+    OnClick = ButtonGarisClick
+  end
+  object ButtonKotak: TButton
+    Left = 224
+    Height = 25
+    Top = 176
+    Width = 75
+    Caption = 'Kotak'
+    TabOrder = 2
+    OnClick = ButtonKotakClick
+  end
+  object ButtonLingkaran: TButton
+    Left = 328
+    Height = 25
+    Top = 176
+    Width = 75
+    Caption = 'Lingkaran'
+    TabOrder = 3
+    OnClick = ButtonLingkaranClick
+  end
+  object ButtonHapus: TButton
+    Left = 432
+    Height = 25
+    Top = 176
+    Width = 75
+    Caption = 'Hapus'
+    TabOrder = 4
+    OnClick = ButtonHapusClick
+  end
+  object ButtonTiga1: TButton
+    Left = 17
+    Height = 25
+    Top = 232
+    Width = 75
+    Caption = 'Segi3-1'
+    TabOrder = 5
+    OnClick = ButtonTiga1Click
+  end
+  object ButtonTiga2: TButton
+    Left = 120
+    Height = 25
+    Top = 232
+    Width = 75
+    Caption = 'Segi3-2'
+    TabOrder = 6
+    OnClick = ButtonTiga2Click
+  end
+  object ButtonSegiLima: TButton
+    Left = 232
+    Height = 25
+    Top = 232
+    Width = 75
+    Caption = 'Bintang'
+    TabOrder = 7
+    OnClick = ButtonSegiLimaClick
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 37
+    Top = 41
+  end
+end
